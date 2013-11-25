@@ -1,0 +1,7 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: https://crowdmap.com/
+            default_session: selenium2
+            goutte: ~
+            selenium2: ~
